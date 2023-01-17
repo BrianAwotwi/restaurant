@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Restaurant with HTML and CSS</title>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+
+        <!-- Link Swiper's CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- header section start -->
+        <header>
+            <a href="#" class="logo"><img src="images/logo.png" alt=""></a>
+
+            <nav class="navbar">
+                <a href="#home" class="active">home</a>
+                <a href="#about">about</a>
+                <a href="#food">menu</a>
+                <a href="#team">team</a>
+                <a href="#reservation">reservation</a>
+                <a href="#blog">blog</a>
+            </nav>
+
+            <div class="icons">
+                <i class="fas fa-bars" id="menu"></i>
+                <i class="fas fa-search"></i>
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-shopping-cart"></i>
+            </div>
+        </header>
+        <!-- header section end -->
+
+        <!-- slider section start -->
+        <div class="home" id="home">
+            <div class="swiper home-slider">
+                <div class="swiper-wrapper wrapper">
+                    <div class="swiper-slide slide slide1">
+                        <div class="content">
+                            <img src="images/crown-symbol.png" alt="">
+
+                            <h3>royate</h3>
+                            <h1>gift card</h1>
+                            <p>
+                                give the gift of taste
+                            </p>
+                            <a href="#" class="btn">buy gift cards</a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide slide2">
+                        <div class="content">
+                            <img src="images/crown-symbol.png" alt="">
+
+                            <h3>save 10% off</h3>
+                            <h1>steak dinners</h1>
+                            <p>
+                                this month
+                            </p>
+                            <a href="#" class="btn">order now</a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide slide3">
+                        <div class="content">
+                            <img src="images/crown-symbol.png" alt="">
+
+                            <h3>royate</h3>
+                            <h1>fruit bar & cafe</h1>
+                            <p>
+                                now open
+                            </p>
+                            <a href="#" class="btn">order now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <!-- slider section end -->
+
+        <section class="welcome" id="about">
+            <h1 class="heading">WELCOME TO ROYATE</h1>
+            <center><h3 class="sub-heading"> ~ Luxury & Quality ~ </h3></center>
+
+            <div class="box-container">
+                <div class="box">
+                    <div class="image">
+                        <img src="images/post-thumb-1.jpg" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>EXPERTLY MADE</h3>
+                        <p>lorem ipsum asdfoiohi asdofihds asdfoihds ofasdofijoaisdjfoisdjfo asdofjosdifjossdofijsoa 
+                            asdfsdfasdfdsf dfasfasd asdfsdf fsdfsdf dffad rtdsfgdsgf dfgdsfgsdfgdfg
+                            asdfadsf dfgfdgsdfg dfgsd
+                        </p>
+
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="images/post-thumb-2.jpg" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>FRESH FOOD GUARANTEED</h3>
+                        <p>lorem ipsum asdfoiohi asdofihds asdfoihds ofasdofijoaisdjfoisdjfo asdofjosdifjossdofijsoa 
+                            asdfsdfasdfdsf dfasfasd asdfsdf fsdfsdf dffad rtdsfgdsgf dfgdsfgsdfgdfg
+                            asdfadsf dfgfdgsdfg dfgsd
+                        </p>
+
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="images/post-thumb-3.jpg" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>PLENTIFUL MENU</h3>
+                        <p>lorem ipsum asdfoiohi asdofihds asdfoihds ofasdofijoaisdjfoisdjfo asdofjosdifjossdofijsoa 
+                            asdfsdfasdfdsf dfasfasd asdfsdf fsdfsdf dffad rtdsfgdsgf dfgdsfgsdfgdfg
+                            asdfadsf dfgfdgsdfg dfgsd
+                        </p>
+
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- our menu section start -->
+        <section class="our-menu" id="food">
+            <h1 class="heading">our menu</h1>
+            <center><h3 class="sub-heading"> ~ see what we offer ~ </h3></center>
+
+            <div class="menu-container">
+
+                <div class="item">
+                    <div class="item-name">
+                        <h2>Main Course</h2>
+                        <img src="images/meal.png" alt="">
+                    </div>
+
+                    <div class="item-body">
+                        <div class="item-menu">
+                            <div class="item-title">
+                                <h3>Steak & Cajun Shrimp</h3>
+                                <span class="dots"></span>
+                                <h3>$40</h3>
+                            </div>                          
+
+                            <ul>
+                                <li><a href="#">NY Steak</a></li>
+                                <li><a href="#">Shrimp</a></li>
+                                <li><a href="#">Baby Brocolli</a></li>
+                                <li><a href="#">Potatoes</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="item-menu">
+                            <div class="item-title">
+                                <h3>Chicken & Risotto</h3>
+                                <span class="dots"></span>
+                                <h3>$26</h3>
+                            </div>
+                            
+                            <ul>
+                                <li><a href="#">Chicken</a></li>
+                                <li><a href="#">Risotto</a></li>
+                                <li><a href="#">Tomatoes</a></li>
+                                <li><a href="#">Arugula</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-name">
+                        <h2>Soups & Salads</h2>
+                        <img src="images/soups-and-salads.png" alt="">
+                    </div>
+
+                    <div class="item-body">
+                        <div class="item-menu">
+                            <div class="item-title">
+                                <h3>Zuppa Toscana</h3>
+                                <span class="dots"></span>
+                                <h3>$13</h3>
+                            </div>
+
+                            <ul>
+                                <li><a href="#">Chicken</a></li>
+                                <li><a href="#">Italian Sausage</a></li>
+                                <li><a href="#">Bacon</a></li>
+                                <li><a href="#">Spinach</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="item-menu">
+                            <div class="item-title">
+                                <h3>Royate Garden Salad</h3>
+                                <span class="dots"></span>
+                                <h3>$9</h3>
+                            </div>                         
+
+                            <ul>
+                                <li><a href="#">Spinach</a></li>
+                                <li><a href="#">arugula</a></li>
+                                <li><a href="#">Tomatoes</a></li>
+                                <li><a href="#">Onion</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-name">
+                        <h2>Drinks</h2>
+                        <img src="images/drinks.png" alt="">
+                    </div>
+
+                    <div class="item-body">
+                        <div class="item-menu">
+                            <div class="item-title">
+                                <h3>Apple Cider Mimosa</h3>
+                                <span class="dots"></span>
+                                <h3>$12</h3>
+                            </div>
+                            
+                            <ul>
+                                <li><a href="#">Apple Cider</a></li>
+                                <li><a href="#">Champagne</a></li>
+                                <li><a href="#">Cinnamon Sugar</a></li>
+                                <li><a href="#">Apple</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="item-menu">
+                            <div class="item-title">
+                                <h3>Salted Rosemay Paloma</h3>
+                                <span class="dots"></span>
+                                <h3>$12</h3>
+                            </div>
+
+                            <ul>
+                                <li><a href="#">Salted Rosemary Syrup</a></li>
+                                <li><a href="#">Grapefruit Juice</a></li>
+                                <li><a href="#">Lime Juice</a></li>
+                                <li><a href="#">Club Soda</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="item">
+                    <div class="item-name">
+                        <h2>Desserts</h2>
+                        <img src="images/desserts.png" alt="">
+                    </div>
+
+                    <div class="item-body">
+                        <div class="item-menu">
+                            <div class="item-title">
+                                <h3>White Chocolate Raspberry Cheesecake</h3>
+                                <span class="dots"></span>
+                                <h3>$8</h3>
+                            </div>
+                            
+                            <ul>
+                                <li><a href="#">White Chocolate</a></li>
+                                <li><a href="#">Rasperry</a></li>
+                                <li><a href="#">Dark Chocolate</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="item-menu">
+                            <div class="item-title">
+                                <h3>Blueberry Mascarpone Pudding</h3>
+                                <span class="dots"></span>
+                                <h3>$8</h3>
+                            </div>
+                            
+                            <ul>
+                                <li><a href="#">Vanilla Pudding</a></li>
+                                <li><a href="#">Blueberry</a></li>
+                                <li><a href="#">Mascarpone</a></li>
+                                <li><a href="#">Almonds</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- our menu section end -->
+
+        <!-- our team start -->
+        <section class="our-team" id="team">
+            <h1 class="heading">our talented chefs</h1>
+            <center>
+                <h3 class="sub-heading"> ~ Experience & Enthusiasm ~ </h3>
+            </center>
+
+            <div class="our-chef">
+                <div class="item">
+                    <div class="image">
+                        <img src="images/our-chef-1.jpg" alt="">
+                    </div>
+
+                    <div class="chef-info">
+                        <div>
+                            <h3>Jerry Robertson</h3>
+                            <span>master chef</span>
+
+                            <ul>
+                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="image">
+                        <img src="images/our-chef-2.jpg" alt="">
+                    </div>
+
+                    <div class="chef-info">
+                        <div>
+                            <h3>Corol Rowson</h3>
+                            <span>master chef</span>
+
+                            <ul>
+                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="image">
+                        <img src="images/our-chef-3.jpg" alt="">
+                    </div>
+
+                    <div class="chef-info">
+                        <div>
+                            <h3>Taylor McCoy</h3>
+                            <span>master chef</span>
+
+                            <ul>
+                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- our team end -->
+        
+        <!-- reservation section start -->
+        <div class="reservation" id="reservation">
+            <div class="image">
+
+            </div>
+
+            <div class="form">
+                <h1 class="heading">book a table</h1>
+                <center><h3 class="sub-heading"> ~ check out our place ~ </h3></center>
+
+                <form action="">
+                    <div class="form-holder">
+                        <div>
+                            <select name="" id="">
+                                <option value="">1 person</option>
+                                <option value="">2 people</option>
+                                <option value="">3 people</option>
+                                <option value="">4 people</option>
+                            </select>
+    
+                            <input type="time" name="" placeholder="Time">
+                            <input type="text" name="" placeholder="Phone">    
+                        </div>
+                        
+                        <div>
+                            <input type="date" name="" placeholder="Date">
+                            <input type="text" name="" placeholder="Name">
+                            <input type="email" name="" placeholder="email">
+                        </div>
+                    </div>
+                    <center><a href="#" class="btn">Book now</a></center>
+                </form>
+            </div>
+        </div>
+        <!-- reservation section end -->
+
+        <!-- news section start -->
+        <section class="blog welcome" id="blog">
+            <h1 class="heading">latest news</h1>
+            <center><h3 class="sub-heading"> ~ Great articles ~ </h3></center>
+
+            <div class="box-container">
+                <div class="box">
+                    <div class="image">
+                        <img src="images/post-thumb-4.jpg" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>PROFESSIONAL LEVEL</h3>
+                        <p>lorem ipsum sdfsdf sdfads dfgfg dfidsfi dsfkjdsnfk asdfkj asdfkjkasd sdkfj asdfkj 
+                            sdkfasdkjf kjdsafkja asdkfj aoisdfoi sdofisd sdofi
+                        </p>
+                        <a href="">READ MORE</a>
+                        <img src="images/post-body-bg-1.png" alt="">
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="images/post-thumb-5.jpg" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>HEALTHY SELECTIONS</h3>
+                        <p>lorem ipsum sdfsdf sdfads dfgfg dfidsfi dsfkjdsnfk asdfkj asdfkjkasd sdkfj asdfkj 
+                            sdkfasdkjf kjdsafkja asdkfj aoisdfoi sdofisd sdofi
+                        </p>
+                        <a href="">READ MORE</a>
+                        <img src="images/post-body-bg-2.png" alt="">
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="images/post-thumb-4.jpg" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>WE DO CATERING</h3>
+                        <p>lorem ipsum sdfsdf sdfads dfgfg dfidsfi dsfkjdsnfk asdfkj asdfkjkasd sdkfj asdfkj 
+                            sdkfasdkjf kjdsafkja asdkfj aoisdfoi sdofisd sdofi
+                        </p>
+                        <a href="">READ MORE</a>
+                        <img src="images/post-body-bg-3.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- news section end -->
+
+        <!-- footer section start -->
+        <section class="footer">
+            <img src="images/logo.png" class="logo" alt="">
+
+            <div class="container">
+                <div>
+                    <h3>ABOUT US</h3>
+                    <p>lorem ipsum dfgsdf dfgsdfg dfgres dsfgsdfg er ghsdgf dfgdfs trry dfgsdgf tyrswty 
+                        dfgsdfg dfgsdfg dgfhsdgf sdfgsdfg gfdhghd
+                    </p>
+                </div>
+
+                <div>
+                    <h3>GET NEWS & OFFERS</h3>
+                    <input type="email" name="" placeholder="enter your email">
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3>CONTACT US</h3>
+                    <span>Royate</span>
+                    <span>+1 (866) 9751357</span>
+                    <span>hello@royate.com</span>
+                    <span>www.royate.com</span>
+                </div>
+            </div>
+
+            <p>&copy;2022 Reserved by Royate</p>
+        </section>
+        <!-- footer section end -->
+
+        <!-- jump to top -->
+
+        <a href="#"><button class="topbtn"><i class="fa-solid fa-angle-up"></i></button></a>
+
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+        var swiper = new Swiper(".home-slider", {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+            delay: 7500,
+            disableOnInteraction: false,
+            },
+            pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+            },
+            loop: true,
+        });
+        </script>
+        
+        <script type="text/javascript">
+            let menu = document.querySelector('#menu');
+            let navbar = document.querySelector('.navbar');
+
+            menu.onclick = () => {
+                menu.classList.toggle('fa-times');
+                navbar.classList.toggle('active');
+            }
+        </script>
+    </body>
+</html>
